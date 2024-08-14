@@ -18,8 +18,8 @@ Meet and Play is a fun and interactive 2D game designed to introduce me with som
 ## Getting Started
 ### Installation
 ```bash
-git clone https://github.com/yourusername/Meet_and_Play.git
-cd Meet_and_Play
+git clone https://github.com/DiogoCoelho98/2D_portfolio.git
+cd 2D_portfolio
 ```
 ```
 npm install
