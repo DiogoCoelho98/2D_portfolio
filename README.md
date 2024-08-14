@@ -1,7 +1,7 @@
 # Meet and Play
 
 ## Description
-Meet and Play is a fun and interactive 2D game designed to introduce you to the creator and share some interesting and quirky facts about them. Developed using Kaboom.js and JavaScript, this game features a custom map and character created with Tiled. Players navigate through a vibrant world filled with engaging trivia and surprises. Perfect for a lighthearted introduction and some entertainment!
+Meet and Play is a fun and interactive 2D game designed to introduce me with some interesting and quirky facts. Developed using Kaboom.js and JavaScript, this game features a custom map and character created with Tiled. Players navigate through a vibrant world filled with engaging trivia and surprises!
 
 ## Built With
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 icon" />
@@ -20,4 +20,19 @@ Meet and Play is a fun and interactive 2D game designed to introduce you to the 
 ```bash
 git clone https://github.com/yourusername/Meet_and_Play.git
 cd Meet_and_Play
+```
+```
 npm install
+```
+### Starting the Server
+1. Start the development server using Vite
+```
+npm run dev
+````
+2. View Meet and Play in your browser
+- Open your web browser and navigate to http://localhost:5173/
+  
+## Contacts
+- **https://www.linkedin.com/in/diogo-borges-coelho/**
+- **diogocoelho19988@gmail.com**
+
