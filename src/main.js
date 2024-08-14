@@ -28,8 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 2000);
 });
 
-
-
 // Loading assets
 k.loadSprite("spritesheet", "./spritesheet.png", {
     // Frames
@@ -37,7 +35,7 @@ k.loadSprite("spritesheet", "./spritesheet.png", {
     sliceY: 31,
     anims: {
         // 3 animations for 4 char positions
-        "idle-down": 936,
+        "idle-down": 936, // one frame
         "walk-down": { from: 936, to: 939, loop: true, speed: 8},
         "idle-side": 975,
         "walk-side": { from: 975, to: 978, loop: true, speed: 8},
@@ -136,26 +134,26 @@ k.scene("main", async () => {
         
         const lowerBound = 50;
         const upperBound = 125;
-        // Faces the player up 
+        // player up 
         if (mouseAngle > lowerBound && mouseAngle < upperBound && player.curAnim() !== "walk-up") {
             player.play("walk-up");
             player.direction = "up";
             return;
         }
-        // Faces the player down
+        // player down
         if (mouseAngle < -lowerBound && mouseAngle > -upperBound && player.curAnim() !== "walk-down") {
             player.play("walk-down");
             player.direction = "down";
             return;
         }
-        // Faces the player right
+        // player right
         if (Math.abs(mouseAngle) > upperBound) {
             player.flipX = false;
             if (player.curAnim() !== "walk-side") player.play("walk-side");
             player.direction = "right";
             return;
         }
-        // Faces the player left
+        // player left
         if (Math.abs(mouseAngle) < lowerBound) {
             player.flipX = true;
             if (player.curAnim() !== "walk-side") player.play("walk-side");

@@ -7,7 +7,7 @@ export const dialogueData = {
     tv: `Usually, I don't spend a lot of time watching TV. I tend to prefer to spend my free time doing other activities, like training, hiking, trying local food, and going to concerts.`,
     bed: `I am a morning person, so I try to get to bed as early as I can. Usually, this is where I think about my plans for future apps. This is probably not the best approach, but we all have flaws, right?`,
     resume: `Ohhh look my resume! <a href="https://github.com/DiogoCoelho98/Resume/blob/main/Diogo_Coelho_CV.pdf" target="_blank"> Why don't you give it a look?</a><a href= "mailto: diogocoelho19988@gmail.com"> Click to send me an email</a> if you have any interesting job opportunities!`,
-    projects: `Info about the portfolio: It's made with Kaboom.js, a JavaScript game programming library. The map, and the character were made with software called Titled. The text is rendered with HTML, and the design was made with CSS.`,
+    projects: `Info about the portfolio: It's made with Kaboom.js, a JavaScript game programming library. The map, and the character were made with a software called Tiled. All the text structure and design of the portefolio are supported by HTML and CSS.`,
     library: `There are a lot of books on my shelves. I like to read about sports methodologies and training periodization. Stoicism, samurais, programming, and some other topics. You can also find books in Portuguese, my first language.`,
     exit: `If you want to leave my portfolio, just close the tab.`,
   };
