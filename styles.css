@@ -42,6 +42,7 @@ body {
   border: 3px;
   padding: 1rem;
   font-size: inherit;
+  cursor: pointer;
 }
 
 .btn-container {

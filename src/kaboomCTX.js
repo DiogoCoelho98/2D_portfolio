@@ -1,7 +1,10 @@
 import kaboom from "kaboom";
 
+
+
+// Initialize Kaboom game engine
 export const k = kaboom({
     global: false,
-    touchToMouse: true, // to work on mobile
-    canvas: document.getElementById("#game"),
+    touchToMouse: true, // touch-to-mouse for mobile devices
+    canvas: document.getElementById("game"),
 });
