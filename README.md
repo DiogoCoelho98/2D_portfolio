@@ -31,6 +31,9 @@ npm run dev
 ````
 2. View Meet and Play in your browser
 - Open your web browser and navigate to http://localhost:5173/
+
+## Project Link
+**https://diogo-portfolio-2d-game.netlify.app**
   
 ## Contacts
 - **https://www.linkedin.com/in/diogo-borges-coelho/**
